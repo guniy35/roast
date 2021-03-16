@@ -1,0 +1,21 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+/* ==========================================================================
+    Builds our style structure
+        https://sass-guidelin.es/#the-7-1-pattern
+   ========================================================================== */
+/**
+ * Table of Contents:
+ *
+ *  1. Abstracts
+ */
+@import 'abstracts/variables';
+
+@import 'node_modules/foundation-sites/assets/foundation.scss';
