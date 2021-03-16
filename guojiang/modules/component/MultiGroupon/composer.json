@@ -1,0 +1,41 @@
+{
+  "name": "ibrand/multiGroupon",
+  "type": "library",
+  "description": "GuoJiangClub Multi Groupon component",
+  "keywords": [
+    "GuoJiangClub",
+    "Groupon",
+    "component"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shjchen",
+      "email": "ibrand.shjchen@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "prettus/l5-repository": "^2.1",
+    "ibrand/laravel-shopping-cart": "~1.0",
+    "ibrand/laravel-scheduling": "~1.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.5",
+    "orchestra/database": "~3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "GuoJiangClub\\Component\\MultiGroupon\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GuoJiangClub\\Component\\MultiGroupon\\MultiGrouponServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

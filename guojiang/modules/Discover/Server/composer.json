@@ -1,0 +1,43 @@
+{
+	"name": "GuoJiangClub/discover-server",
+	"type": "library",
+	"description": "GuoJiangClub discover server",
+	"keywords": [
+		"GuoJiangClub",
+		"discover",
+		"server"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "tangqi",
+			"email": "923332947@qq.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.0",
+		"orchestra/testbench": "~3.5",
+		"orchestra/database": "~3.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"GuoJiangClub\\Discover\\Server\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"GuoJiangClub\\Discover\\Server\\Test\\": "tests"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

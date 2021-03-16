@@ -1,0 +1,27 @@
+{
+	"name": "GuoJiangClub/recharge",
+	"type": "library",
+	"description": "GuoJiangClub Recharge component",
+	"keywords": [
+		"GuoJiangClub",
+		"Recharge",
+		"component"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "GuoJiangClub Recharge",
+			"email": "chenhao@element.vip"
+		}
+	],
+	"require": {
+		"php": "^5.6|^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"GuoJiangClub\\Component\\Recharge\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ibrand/Seckill",
+  "type": "library",
+  "description": "ibrand Seckill component",
+  "keywords": [
+    "ibrand",
+    "Seckill",
+    "component"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shjchen",
+      "email": "chenhao@element.vip"
+    }
+  ],
+  "require": {
+    "php": "^5.6|^7.0"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "GuoJiangClub\\Component\\Seckill\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GuoJiangClub\\Component\\Seckill\\SeckillServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

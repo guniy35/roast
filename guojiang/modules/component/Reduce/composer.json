@@ -1,0 +1,40 @@
+{
+  "name": "ibrand/Reduce",
+  "type": "library",
+  "description": "GuoJiangClub Reduce component",
+  "keywords": [
+    "GuoJiangClub",
+    "Reduce",
+    "component"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "prettus/l5-repository": "^2.1",
+    "ibrand/laravel-scheduling": "~1.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.5",
+    "orchestra/database": "~3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "GuoJiangClub\\Component\\Reduce\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GuoJiangClub\\Component\\Reduce\\ReduceServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

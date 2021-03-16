@@ -1,0 +1,30 @@
+{
+  "name": "ibrand/gift",
+  "type": "library",
+  "description": "ibrand Gift component",
+  "keywords": [
+    "ibrand",
+    "Recharge",
+    "component"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ibrand Gift",
+      "email": "chenhao@element.vip"
+    }
+  ],
+  "require": {
+    "php": "^5.6|^7.0"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "GuoJiangClub\\Component\\Gift\\": "src/"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

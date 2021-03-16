@@ -1,0 +1,1 @@
+# GuoJiangClub Point Component

@@ -1,0 +1,44 @@
+{
+	"name": "GuoJiangClub/auth-api",
+	"type": "library",
+	"description": "GuoJiangClub auth api.",
+	"keywords": [
+		"GuoJiangClub",
+		"auth",
+		"api"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "shjchen",
+			"email": "i@chenhow.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"ibrand/laravel-sms": "~1.0",
+		"ibrand/common": "~1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.0",
+		"orchestra/testbench": "~3.5",
+		"orchestra/database": "~3.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"GuoJiangClub\\Auth\\Api\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

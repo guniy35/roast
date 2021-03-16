@@ -1,0 +1,27 @@
+{
+	"name": "GuoJiangClub/Suit",
+	"type": "library",
+	"description": "GuoJiangClub Suit component",
+	"keywords": [
+		"GuoJiangClub",
+		"Suit",
+		"component"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "GuoJiangClub Suit",
+			"email": "chenhao@element.vip"
+		}
+	],
+	"require": {
+		"php": "^5.6|^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"GuoJiangClub\\Component\\Suit\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
