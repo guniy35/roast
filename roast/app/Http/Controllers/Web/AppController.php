@@ -2,6 +2,7 @@
 
 namespace app\Http\Controllers\Web;
 
+use Auth;
 use App\Http\Controllers\Controller;
 
 class AppController extends Controller
@@ -10,10 +11,10 @@ class AppController extends Controller
     {
         return view('app');
     }
-    public function getLogin()
+
+    public function getLogout()
     {
-        return view('login');
+        Auth::logout();
+        return redirect('/');
     }
-
 }
-

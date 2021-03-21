@@ -167,7 +167,7 @@
             </div>
             <div class="large-4 medium-4 small-4 cell">
                 <router-link :to="{ name: 'cafes'}">
-                    <img src="/storage/img/logo.svg" class="logo"/>
+                    <img src="/storage/img/logo.png" class="logo"/>
                 </router-link>
             </div>
             <div class="large-4 medium-4 small-4 cell">
@@ -283,7 +283,7 @@
             setShowPopOut() {
                 this.$store.dispatch('toggleShowPopOut', {showPopOut: true});
             },
-            
+
             clearFilters() {
                 EventBus.$emit('clear-filters');
             }

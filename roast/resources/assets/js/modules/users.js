@@ -98,6 +98,7 @@ export const users = {
             return function () {
                 return state.userLoadStatus;
             }
+            return state.userLoadStatus;
         },
 
         /*

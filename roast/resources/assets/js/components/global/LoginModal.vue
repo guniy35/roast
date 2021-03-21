@@ -97,11 +97,11 @@
             </a>
 
 
-            <div class="login-label">关于本项目</div>
+            <div class="login-label">关于天牛科技</div>
 
-            <p class="learn-more-description">Roast 项目由 <a href="https://laravelacademy.org" target="_blank">Laravel 学院</a>提供，Laravel 学院致力于提供优质 Laravel 中文学习资源。</p>
+            <p class="learn-more-description">天牛科技致力于提供优质前沿STEM应用学习资源。</p>
 
-            <a class="learn-more-button" href="https://laravelacademy.org/api-driven-development-laravel-vue" target="_blank">关于本项目的构建教程，可以在这里看到</a>
+            <a class="learn-more-button" href="https://www.treet.vip" target="_blank">关于天牛科技成果，可以在这里看到</a>
         </div>
     </div>
 </template>
